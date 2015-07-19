@@ -2,8 +2,19 @@
   "name": "latynka",
   "title": "latynka",
   "id": "jid1-PaIGr5gJIZLFDQ",
-  "description": "a basic add-on",
+  "description": "Latynka is an add-on for latinization of ukrainian texts",
   "author": "",
   "license": "MPL 2.0",
-  "version": "0.1.1"
+  "version": "0.1.1",
+  "preferences": [{
+    "name": "transProject",
+    "title": "Transliteration Project",
+    "description": "You can choose the way how Ukrainian language will be transliterated",
+    "type": "menulist",
+    "value": "luchukivka",
+    "options": [
+      {"value": "luchukivka", "label": "Ivan Luchuk project"},
+      {"value": "hajevycja", "label": "Hajevycja based project"}
+    ]
+  }]
 }
