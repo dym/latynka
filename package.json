@@ -13,8 +13,8 @@
     "type": "menulist",
     "value": "luchukivka",
     "options": [
-      {"value": "luchukivka", "label": "Ivan Luchuk project"},
-      {"value": "hajevycja", "label": "Hajevycja based project"}
+      {"value": "hajevycja", "label": "Hajevycja based project"},
+      {"value": "luchukivka", "label": "Ivan Luchuk project"}
     ]
   }]
 }
