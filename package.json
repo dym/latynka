@@ -15,6 +15,7 @@
     "options": [
       {"value": "hajevycja", "label": "Hajevycja based project"},
       {"value": "jirechekivka", "label": "Josif Jirechek project"},
+      {"value": "lahodivka", "label": "Maksim Lahoda project"},
       {"value": "luchukivka", "label": "Ivan Luchuk project"},
       {"value": "tkpn", "label": "TKPN Standard"}
     ]
