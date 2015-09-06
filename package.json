@@ -5,7 +5,7 @@
   "description": "Latynka is an add-on for latinization of ukrainian texts",
   "author": "Dmytro Budašnyj",
   "license": "MPL 2.0",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "preferences": [{
     "name": "transProject",
     "title": "Transliteration Project",
