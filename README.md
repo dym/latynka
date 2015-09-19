@@ -15,7 +15,7 @@ To run local version of addon:
 
 To test:
 
-`npm test`
+`jpm test`
 
 ## Creating module for AMO
 
