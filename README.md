@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dym/latynka.svg?branch=master)](https://travis-ci.org/dym/latynka)
+
 # latynka
 Latynka - Firefox Browser Add-on for latinization of ukrainian texts
 
