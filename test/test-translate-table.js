@@ -100,6 +100,10 @@ exports["test translate-table lahodivka"] = function(assert) {
                "dľa osmyslenńa vśoho ćoho");
   assert.equal(transliterateText("м'ясо", curTable), "mjaso");
   assert.equal(transliterateText("вважаю", curTable), "wažaju");
+  assert.equal(transliterateText("Як ся маєте дядьку", curTable), "Jak śa majete ďaďku");
+  assert.equal(transliterateText("Діод", curTable), "Díod");
+  assert.equal(transliterateText("Наморозь", curTable), "Namoroź");
+  assert.equal(transliterateText("Ховається", curTable), "Chovajeťśa");
 };
 
 exports["test translate-table luchukivka"] = function(assert) {
