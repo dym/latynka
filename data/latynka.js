@@ -50,9 +50,16 @@ var latynka = (function() {
     },
 
     transliterate: function transliterate() {
-      var all = document.getElementsByTagName('*');
-      for (var i=0, max=all.length; i < max; i++) {
-        node = all[i];
+      var treeWalker = document.createTreeWalker(
+        document.body,
+        NodeFilter.SHOW_ELEMENT,
+        { acceptNode: function(node) { return NodeFilter.FILTER_ACCEPT; } },
+        false
+      );
+      var node;
+
+      while(treeWalker.nextNode()) {
+        node = treeWalker.currentNode;
         for (var j=0; j < node.childNodes.length; j++) {
           childNode = node.childNodes[j];
           if (childNode.nodeType == Node.TEXT_NODE && childNode.nodeValue.trim() != '') {
@@ -60,6 +67,7 @@ var latynka = (function() {
           }
         }
       }
+
     }
 
   };
