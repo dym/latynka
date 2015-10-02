@@ -59,6 +59,7 @@ exports["test translate-table abecadlo"] = function(assert) {
   assert.equal(transliterateText("Як ся маєте дядьку", curTable), "Jak sia majete diaďku");
   assert.equal(transliterateText("Діод", curTable), "Diöd");
   assert.equal(transliterateText("Наморозь", curTable), "Namoroź");
+  assert.equal(transliterateText("Ховається", curTable), "Chowajeťsia");
 };
 
 exports["test translate-table hajevycja"] = function(assert) {
@@ -83,6 +84,10 @@ exports["test translate-table jirechekivka"] = function(assert) {
                "dlia osmyslennia vsioho cioho");
   assert.equal(transliterateText("м'ясо", curTable), "mjaso");
   assert.equal(transliterateText("вважаю", curTable), "vvažaju");
+  assert.equal(transliterateText("Як ся маєте дядьку", curTable), "Jak sia majete diaďku");
+  assert.equal(transliterateText("Діод", curTable), "Diöd");
+  assert.equal(transliterateText("Наморозь", curTable), "Namoroź");
+  assert.equal(transliterateText("Ховається", curTable), "Chovajeťsia");
 };
 
 exports["test translate-table lahodivka"] = function(assert) {
@@ -107,6 +112,10 @@ exports["test translate-table luchukivka"] = function(assert) {
                "dľa osmyslenńa vśoho ćoho");
   assert.equal(transliterateText("м'ясо", curTable), "mjaso");
   assert.equal(transliterateText("вважаю", curTable), "vvažaju");
+  assert.equal(transliterateText("Як ся маєте дядьку", curTable), "Jak śa majete ďaďku");
+  assert.equal(transliterateText("Діод", curTable), "Diod");
+  assert.equal(transliterateText("Наморозь", curTable), "Namoroź");
+  assert.equal(transliterateText("Ховається", curTable), "Xovajeťśa");
 };
 
 exports["test translate-table tkpn"] = function(assert) {
@@ -119,6 +128,10 @@ exports["test translate-table tkpn"] = function(assert) {
                "dlja osmyslennja vsjogho cjogho");
   assert.equal(transliterateText("м'ясо", curTable), "m'jaso");
   assert.equal(transliterateText("вважаю", curTable), "vvazhaju");
+  assert.equal(transliterateText("Як ся маєте дядьку", curTable), "Jak sja majete djadjku");
+  assert.equal(transliterateText("Діод", curTable), "Diod");
+  assert.equal(transliterateText("Наморозь", curTable), "Namorozj");
+  assert.equal(transliterateText("Ховається", curTable), "Khovajetjsja");
 };
 
 require("sdk/test").run(exports);
