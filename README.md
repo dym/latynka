@@ -13,12 +13,12 @@ Use npm (as root) to install jpm:
 
 To run local version of addon:
 
-`jpm run`
+`make run`
 
 To test:
 
-`jpm test`
+`make test`
 
 ## Creating module for AMO
 
-Run `jpm xpi` and upload module
+Run `make pack` and upload module

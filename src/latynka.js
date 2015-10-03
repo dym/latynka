@@ -6,7 +6,6 @@ var latynka = (function() {
     transTable: self.options.translateTable,
 
     transliterate: function transliterate() {
-      window.alert(typeof(latynka));
       var treeWalker = document.createTreeWalker(
         document.body,
         NodeFilter.SHOW_ELEMENT,
