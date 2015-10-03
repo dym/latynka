@@ -7,19 +7,42 @@
   "license": "MPL 2.0",
   "version": "0.5.0",
   "main": "lib/main.js",
-  "preferences": [{
-    "name": "transProject",
-    "title": "Transliteration Project",
-    "description": "You can choose the way how Ukrainian language will be transliterated",
-    "type": "menulist",
-    "value": "luchukivka",
-    "options": [
-      {"value": "abecadlo", "label": "Josip Lozynskyi project (Abecadlo)"},
-      {"value": "hajevycja", "label": "Hajevycja based project"},
-      {"value": "jirechekivka", "label": "Josif Jirechek project"},
-      {"value": "lahodivka", "label": "Maksim Lahoda project"},
-      {"value": "luchukivka", "label": "Ivan Luchuk project"},
-      {"value": "tkpn", "label": "TKPN Standard"}
-    ]
-  }]
+  "preferences": [
+    {
+      "name": "transProject",
+      "title": "Transliteration Project",
+      "description": "You can choose the way how Ukrainian language will be transliterated",
+      "type": "menulist",
+      "value": "luchukivka",
+      "options": [
+        {
+          "value": "abecadlo",
+          "label": "Josip Lozynskyi project (Abecadlo)"
+        },
+        {
+          "value": "hajevycja",
+          "label": "Hajevycja based project"
+        },
+        {
+          "value": "jirechekivka",
+          "label": "Josif Jirechek project"
+        },
+        {
+          "value": "lahodivka",
+          "label": "Maksim Lahoda project"
+        },
+        {
+          "value": "luchukivka",
+          "label": "Ivan Luchuk project"
+        },
+        {
+          "value": "tkpn",
+          "label": "TKPN Standard"
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "latynka-js": "^0.1.0"
+  }
 }
