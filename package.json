@@ -13,7 +13,7 @@
       "title": "Transliteration Project",
       "description": "You can choose the way how Ukrainian language will be transliterated",
       "type": "menulist",
-      "value": "luchukivka",
+      "value": "jirechekivka",
       "options": [
         {
           "value": "abecadlo",
